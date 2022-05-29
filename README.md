@@ -1,3 +1,3 @@
 # vldmr314.github.io
 Personal Website of Vladimir Ryabenko
-vldmr314.github.io
+http://vldmr314.github.io
