@@ -10,6 +10,10 @@
     list-style: none;
     padding: 25px 0 5px;
     text-align: center;
+    text-shadow: 0 0 7px white,
+    0 0 42px aqua,
+    0 0 82px aqua,
+    0 0 92px aqua;
 }
 
 .menu-main li {
@@ -137,5 +141,7 @@
     -4px -4px 0 #16072A,
     4px -4px 0 #16072A,
     -4px 4px 0 #16072A,
-    4px 4px 0 #16072A;
+    4px 4px 0 #16072A,
+    0 0 7px white,
+    0 0 42px aqua;
 }

@@ -17,4 +17,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    text-shadow: 0 0 7px white,
+    0 0 42px aqua,
+    0 0 82px aqua;
 }

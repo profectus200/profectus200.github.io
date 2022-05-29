@@ -33,6 +33,11 @@
     width: 100px;
 }
 
+.my-photo {
+    box-shadow: 0 0 7px white,
+    0 0 42px aqua;
+}
+
 .about-text {
     color: white;
     font-family: "Xirod", sans-serif;

@@ -39,7 +39,3 @@
     will-change: filter;
 }
 
-.icon:hover {
-    filter: drop-shadow(0 0 15px black);
-    transform: scale3d(1.28, 1.28, 1);
-}
