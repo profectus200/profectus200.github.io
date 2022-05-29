@@ -1,0 +1,62 @@
+.portfolio {
+    margin: 0;
+    position: absolute;
+    top: 200vh;
+    height: 100vh;
+    width: 100vw;
+    background: url("../img/portf_back.gif") no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: -0 -3px 0 #000023,
+    0 -3px 0 #000023,
+    -0 3px 0 #000023,
+    0 3px 0 #000023,
+    -3px -0 0 #000023,
+    3px -0 0 #000023,
+    -3px 0 0 #000023,
+    3px 0 0 #000023,
+    -1px -3px 0 #000023,
+    1px -3px 0 #000023,
+    -1px 3px 0 #000023,
+    1px 3px 0 #000023,
+    -3px -1px 0 #000023,
+    3px -1px 0 #000023,
+    -3px 1px 0 #000023,
+    3px 1px 0 #000023,
+    -2px -3px 0 #000023,
+    2px -3px 0 #000023,
+    -2px 3px 0 #000023,
+    2px 3px 0 #000023,
+    -3px -2px 0 #000023,
+    3px -2px 0 #000023,
+    -3px 2px 0 #000023,
+    3px 2px 0 #000023,
+    -3px -3px 0 #000023,
+    3px -3px 0 #000023,
+    -3px 3px 0 #000023,
+    3px 3px 0 #000023,
+    -3px -3px 0 #000023,
+    3px -3px 0 #000023,
+    -3px 3px 0 #000023,
+    3px 3px 0 #000023;
+}
+
+.portfolio-title {
+    color: white;
+    font-family: "Xirod", sans-serif;
+    letter-spacing: 4px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.portfolio-element {
+    color: white;
+    font-family: "Xirod", sans-serif;
+    letter-spacing: 4px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+

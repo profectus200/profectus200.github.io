@@ -1,0 +1,45 @@
+.about {
+    margin: 0;
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    background: url("../img/about_back.jpg") fixed;
+    background-size: cover;
+    color: white;
+}
+
+.about-title {
+    color: white;
+    font-family: "Xirod", sans-serif;
+    letter-spacing: 3px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.about-table {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    width: 400px;
+    vertical-align: top;
+}
+
+.middle-column {
+    width: 100px;
+}
+
+.about-text {
+    color: white;
+    font-family: "Xirod", sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+
