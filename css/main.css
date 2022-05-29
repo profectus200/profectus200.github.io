@@ -1,14 +1,7 @@
 @font-face {
-    font-family: "Kusanagi";
-    src: url("../webfonts/kusanagi.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: "Xirod";
-    src: url("../webfonts/xirod.woff") format("woff");
+    src: url("../webfonts/xirod.woff2") format("woff2"),
+    url("../webfonts/xirod.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
