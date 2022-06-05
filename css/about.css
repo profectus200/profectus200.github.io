@@ -19,32 +19,29 @@
     margin-top: 5vh;
 }
 
-.about-table {
+.about-wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.left-column {
-    width: 400px;
-    vertical-align: top;
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
 }
 
-.middle-column {
-    width: 100px;
-}
-
-.my-photo {
+.about-info img {
     box-shadow: 0 0 7px white,
     0 0 42px aqua;
 }
 
-.about-text {
+.about-info p {
+    width: 50%;
     color: white;
     font-family: "Xirod", sans-serif;
     letter-spacing: 2px;
     font-size: 22px;
-    display: flex;
-    justify-content: center;
 }
 
 
