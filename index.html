@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/recipe.css">
 </head>
 <body>
 
@@ -24,6 +25,7 @@
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">My Contacts</a></li>
+            <li><a href="#recipe">Random Cocktail</a></li>
         </ul>
     </nav>
 
@@ -66,13 +68,35 @@
         <a href="https://vk.com/vladimir31415" target="_blank"><img class="icon" src="img/vk_icon.png" alt="vk"></a>
         <a href="https://www.instagram.com/_.mr_volodya._" target="_blank"><img class="icon" src="img/inst_icon.png"
                                                                                 alt="instagram"></a>
-        <a href="https://t.me/Vldmr11" target="_blank"><img class="icon" src="img/tg_icon.png" alt="telegram"></a>
+        <a href="https://t.me/Vldmr11" target="_blank"><img class="icon" src="img/tg_icon.png" alt="telegram"/></a>
+    </div>
+</div>
+
+<div class="recipe" id="recipe">
+    <h1 class="recipe-title">Random Cocktail Recipe</h1>
+    <h2 class="drink-name" id="drink">Balmoral</h2>
+    <div class="recipe-wrapper">
+        <div class="recipe-info">
+            <div class="recipe-text">
+                <p>Ingredients: </p>
+                <p id="ingredients">Scotch, Sweet Vermouth, Dry Vermouth, Bitters</p>
+                <p>Instruction: </p>
+                <p id="instructions">
+                    In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into
+                    a cocktail glass.</p>
+            </div>
+            <img id="drinkThumb" alt="drink image" src="img/defolt_cocktail.jpg" height="400"/>
+        </div>
+    </div>
+    <div class="button-wrapper">
+        <button class="recipe-button" id="get-recipe-btn"><span class="recipe-span">Get recipe!</span></button>
     </div>
 </div>
 
 <script src="js/three.r119.min.js"></script>
 <script src="js/vanta.net.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/recipe.js"></script>
 
 </body>
 </html>
