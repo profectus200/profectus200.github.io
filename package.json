@@ -1,0 +1,30 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vldmr314/PersonalWebsite.git"
+  },
+  "author": "Vladimir Ryabenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vldmr314/PersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/Vldmr314/PersonalWebsite#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.75.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0"
+  }
+}
