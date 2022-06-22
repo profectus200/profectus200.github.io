@@ -1,1 +1,1 @@
-# http://vldmr314.github.io
+First version of my personal website
