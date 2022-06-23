@@ -3,6 +3,8 @@
     width: 100vw;
     position: fixed;
     color: white;
+    background: url("/img/intro_back.jpg") fixed;
+    background-size: cover;
 }
 
 .menu-main {
@@ -102,46 +104,6 @@
     justify-content: center;
     text-align: center;
     margin-top: 20vh;
-    text-shadow: -0 -4px 0 #16072A,
-    0 -4px 0 #16072A,
-    -0 4px 0 #16072A,
-    0 4px 0 #16072A,
-    -4px -0 0 #16072A,
-    4px -0 0 #16072A,
-    -4px 0 0 #16072A,
-    4px 0 0 #16072A,
-    -1px -4px 0 #16072A,
-    1px -4px 0 #16072A,
-    -1px 4px 0 #16072A,
-    1px 4px 0 #16072A,
-    -4px -1px 0 #16072A,
-    4px -1px 0 #16072A,
-    -4px 1px 0 #16072A,
-    4px 1px 0 #16072A,
-    -2px -4px 0 #16072A,
-    2px -4px 0 #16072A,
-    -2px 4px 0 #16072A,
-    2px 4px 0 #16072A,
-    -4px -2px 0 #16072A,
-    4px -2px 0 #16072A,
-    -4px 2px 0 #16072A,
-    4px 2px 0 #16072A,
-    -3px -4px 0 #16072A,
-    3px -4px 0 #16072A,
-    -3px 4px 0 #16072A,
-    3px 4px 0 #16072A,
-    -4px -3px 0 #16072A,
-    4px -3px 0 #16072A,
-    -4px 3px 0 #16072A,
-    4px 3px 0 #16072A,
-    -4px -4px 0 #16072A,
-    4px -4px 0 #16072A,
-    -4px 4px 0 #16072A,
-    4px 4px 0 #16072A,
-    -4px -4px 0 #16072A,
-    4px -4px 0 #16072A,
-    -4px 4px 0 #16072A,
-    4px 4px 0 #16072A,
-    0 0 7px white,
+    text-shadow: 0 0 7px white,
     0 0 42px aqua;
 }
